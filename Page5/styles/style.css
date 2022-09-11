@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hind+Madurai:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Rubik";
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header__bgc {
+    background-color: #F6F6F9;
+    height: 332px;
+    padding-top: 40px;
+}
+.header__nav__first {
+    display: flex;
+    margin-bottom: 40px;
+}
+.nam__bgc__white {
+    background-color: #FFFFFF;
+    width: 320px;
+    height: 40px;
+    box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+}
+.nam__bgc__white:hover {
+    border: 2px solid blue;
+}
+.nam__bgc__white .nam {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #295091;
+}
+.nam__bgc__white .nam:hover {
+    text-decoration: underline blue;
+}
+.header__nav__first .currency {
+    margin: 02px 0 0 23px;
+}
+.lupa {
+    width: 38.1px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-left: 311px;
+}
+.lupa:hover {
+    border: 2px solid blue;
+}
+.lupa .lupa__picture {
+    margin: 10px;
+}
+.country {
+    width: 64.46px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    margin-left: 21.9px;
+}
+.country:hover {
+    border: 2px solid blue;
+}
+.country .flag {
+    height: 15px;
+    margin: 10px 8px 0 8px;
+}
+.following {
+    width: 146px;
+    height: 40px;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    border-radius: 5px;
+    margin-left: 23.24px;
+}
+.following .telegram {
+    float: left;
+    margin: 9px 10px; 
+}
+.following .follow {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin: 8px;
+}
+.following .follow:hover {
+    text-decoration: underline 2px blue;
+}
+.header__nav__lists {
+    display: flex;
+    list-style-type: none;
+    width: 1200px;
+    height: 68px;
+    background-color: #FFFFFF;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+    border-radius: 5px;
+    margin-bottom: 18px;
+}
+.header__nav__lists:hover {
+    border: 2px solid blue;
+}
+.header__nav__lists .link {
+    text-decoration: none;
+}
+.item .link:hover {
+    text-decoration: underline 2px blue;
+}
+.header__picture {
+    border: 1px solid #E0E0E0;
+}
+.header__picture:hover {
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.hero__covid {
+    width: 1200px;
+    height: 133px;
+    background-color: #F6F6F9;
+    border-radius: 5px;
+    margin-top: 22px;
+    display: flex;
+    margin-bottom: 18px;
+}
+.hero__covid:hover {
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.covid {
+    display: flex;
+}
+.covid .covid__picture {
+    margin: 44px 25px 44px 35px;
+}
+.covid h4 {
+    width: 232px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 42px;
+}
+.covid .red__line {
+    width: 2px;
+    height: 74px;
+    background-color: #EB5569;
+    margin: 30px 30.19px 29px 71px;
+}
+.infection {
+    display: flex;
+}
+.infection .red__smile {
+    height: 37.5px;
+    margin: 48.25px 18.19px 47.25px 0;
+}
+.infection h5 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #DB0000;
+    margin: 41px 0;
+}
+.number {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29.63px;
+    color: #000000;
+}
+.pink__line {
+    width: 2px;
+    height: 49px;
+    background-color: #F4CCD1;
+    margin: 42px 0 42px 42px;
+}
+.smile {
+    display: flex;
+}
+.smile img {
+    height: 40px;
+    margin: 49.25px 20.19px 46.25px 30.19px;
+}
+.smile h5 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #05B135;
+    margin: 41px 38px 40px 0;
+}
+.death {
+    display: flex;
+}
+.death img {
+    height: 38px;
+    margin: 47px 19px 48px 27px;
+}
+.death h5 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 41px 0 40px 0;
+}
+.main__lists {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin-bottom: 34px;
+    width: 1200px;
+}
+.pictures__lists:nth-child(3) {
+    margin: 0;
+}
+.pictures__lists:nth-child(6) {
+    margin: 0;
+}
+.pictures__lists {
+    margin: 0 19px 18px 0;
+}
+.pictures__lists img:hover {
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.pictures__lists h6 {
+    width: 380px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    margin: 11px 0;
+}
+.pictures__lists p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6B6D97;
+}
+.card {
+    width: 819px;
+    height: 231px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(86, 86, 86, 0.25);
+    border-radius: 5px;
+    position: absolute;
+    top: 280px;
+    left: 600px;
+}
+.card .x {
+    position: relative;
+    left: 790px;
+    top: 15px;
+}
+.card h3 {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: center;
+    color: #295093;
+    margin: 28px 0 30px 0;
+}
+.card .little__follow {
+    display: flex;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    border-radius: 5px;
+    width: 223px;
+    height: 61px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card .little__follow img {
+    height: 30.03px;
+    margin: 15.48px 10.48px 15.48px 15.48px;
+}
+.card .little__follow h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 17px;
+}
